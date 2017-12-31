@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostRationalConan(ConanFile):
     name = "boost_rational"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-rational"
+    url = "https://github.com/bincrafters/conan-boost_rational"
 
     lib_short_names = ["rational"]
     is_header_only = True
