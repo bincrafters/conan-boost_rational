@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostRationalConan(base.BoostBaseConan):
     name = "boost_rational"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_rational"
     lib_short_names = ["rational"]
     header_only_libs = ["rational"]
