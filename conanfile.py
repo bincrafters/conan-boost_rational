@@ -4,21 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostRationalConan(base.BoostBaseConan):
     name = "boost_rational"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_rational"
-    lib_short_names = ["rational"]
-    header_only_libs = ["rational"]
-    b2_requires = [
-        "boost_assert",
-        "boost_config",
-        "boost_core",
-        "boost_integer",
-        "boost_static_assert",
-        "boost_throw_exception",
-        "boost_type_traits",
-        "boost_utility"
-    ]
+    version = "1.70.0"
